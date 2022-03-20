@@ -19,13 +19,15 @@ namespace WorldFamily.User.Service.Controllers
 
         [HttpGet]
         [Route("account-details")]
-        public ActionResult<AccountDetailDto> GetAccountDetailsByPhoneAndRegion(string phone, string region)
+        public ActionResult<AccountDetailDto> GetAccountDetailByPhoneAndRegion(string phone, string region)
         {
-            var accountDetail = userService.GetAccountDetailsByPhoneAndRegion(phone, region);
+            var accountDetail = userService.GetAccountDetailByPhoneAndRegion(phone, region);
+
             if (accountDetail == null)
             {
                 return NotFound();
             }
+
             return accountDetail;
         }
     }

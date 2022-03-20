@@ -80,7 +80,7 @@ namespace WorldFamily.User.Service.Test
 
             userService = new UserService(mockDbContext.Object);
 
-            var accountDetail = userService.GetAccountDetailsByPhoneAndRegion(phone, region);
+            var accountDetail = userService.GetAccountDetailByPhoneAndRegion(phone, region);
             Assert.AreEqual(JsonSerializer.Serialize(expectAccountDetail), JsonSerializer.Serialize(accountDetail));
         }
 

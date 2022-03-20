@@ -15,7 +15,7 @@ namespace WorldFamily.User.Service.Services
             this.context = context;
         }
 
-        public AccountDetailDto GetAccountDetailsByPhoneAndRegion(string phone, string region)
+        public AccountDetailDto GetAccountDetailByPhoneAndRegion(string phone, string region)
         {
             var member = context.Members.Where(m => m.PhoneNo == phone).SingleOrDefault();
 
