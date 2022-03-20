@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/tsaimengche/Documents/WorldFamily/WorldFamily.User/src/WorldFamily.User.Service/WorldFamily.User.Service.csproj": {}
+  },
+  "projects": {
+    "/Users/tsaimengche/Documents/WorldFamily/WorldFamily.User/src/WorldFamily.User.Service/WorldFamily.User.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/tsaimengche/Documents/WorldFamily/WorldFamily.User/src/WorldFamily.User.Service/WorldFamily.User.Service.csproj",
+        "projectName": "WorldFamily.User.Service",
+        "projectPath": "/Users/tsaimengche/Documents/WorldFamily/WorldFamily.User/src/WorldFamily.User.Service/WorldFamily.User.Service.csproj",
+        "packagesPath": "/Users/tsaimengche/.nuget/packages/",
+        "outputPath": "/Users/tsaimengche/Documents/WorldFamily/WorldFamily.User/src/WorldFamily.User.Service/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/tsaimengche/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/Users/tsaimengche/Documents/DotNet Microservices/packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
